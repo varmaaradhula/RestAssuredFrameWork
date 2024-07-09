@@ -46,7 +46,7 @@ public class Utils {
     public static String getGlobalproperties(String key) throws IOException {
 
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("/Users/varma/Desktop/RestAssured/APICucumberFramework/Globalproperties.properties");
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/Globalproperties.properties");
         prop.load(fis);
         return prop.getProperty(key);
     }
