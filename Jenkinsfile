@@ -14,6 +14,6 @@ agent any
             steps{
                 sh 'mvn test verify
             }
-            ]
+            }
 
 }
