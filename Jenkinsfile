@@ -15,5 +15,5 @@ agent any
                 sh 'mvn test verify'
             }
             }
-
+}
 }
