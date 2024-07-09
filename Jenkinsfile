@@ -12,7 +12,7 @@ agent any
         }
         stage('BUILD'){
             steps{
-                sh 'mvn test verify
+                sh 'mvn test verify'
             }
             }
 
